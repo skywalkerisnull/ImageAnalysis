@@ -33,7 +33,7 @@ ENTRYPOINT ["/bin/bash", "-c"]
 CMD cd /app
 
 # To run, use the following commands:
-# docker run -d --name imageanalysis -v location/on/your/computer:/data imageanalysis
+# docker run -d -it --name imageanalysis -v location/on/your/computer:/data imageanalysis
 # docker exec -it imageanalysis /bin/bash
 
 # When in the container, you can navigate to the project runner dir and run with the following:
